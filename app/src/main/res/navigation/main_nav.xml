@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="org.jash.zrs13yk.Add.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/faxianFragment"
+        android:name="org.jash.zrs13yk.Faxian.FaxianFragment"
+        android:label="fragment_faxian"
+        tools:layout="@layout/fragment_faxian" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.jash.zrs13yk.Home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/masgFragment"
+        android:name="org.jash.zrs13yk.masg.MasgFragment"
+        android:label="fragment_masg"
+        tools:layout="@layout/fragment_masg" />
+    <fragment
+        android:id="@+id/mineFragment"
+        android:name="org.jash.zrs13yk.mine.MineFragment"
+        android:label="fragment_mine"
+        tools:layout="@layout/fragment_mine" />
+</navigation>
